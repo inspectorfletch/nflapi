@@ -7,7 +7,7 @@ from .shield import shield, GameOrderBy, OrderByDirection
 
 DEFAULT_FIELDS = {
     shield.Game: ['id', 'game_time', 'slug', 'game_detail_id'],
-    shield.GameDetail: ['id', 'game_time', 'phase', 'period', 'game_clock'],
+    shield.GameDetail: ['id', 'game_time', 'phase', 'period', 'game_clock', 'plays'],
     shield.Team: ['id', 'abbreviation', 'full_name', 'nick_name'],
     shield.TeamRecord: ['overall_win', 'overall_loss', 'overall_tie', 'overall_pct', 'team_id', 'division_rank',
                         'conference_rank'],
